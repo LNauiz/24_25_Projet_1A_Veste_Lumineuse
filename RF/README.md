@@ -1,3 +1,6 @@
+Les créateurs : (par ordre alphabetique ainsi que ordre de talent inverse)
+```
 LOISELET Geoffroy
-VIDON Gabriel
 Taillepierre Axel
+VIDON Gabriel
+```
