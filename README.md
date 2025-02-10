@@ -1,5 +1,16 @@
 # 24_25_Projet_1A_Veste_Lumineuse
 
+## Pense bete Git
+
+```bash
+git pull
+<<travail travail travail>>
+git status
+git add .
+git commit -m "texte intelligent"
+git push
+```
+
 Petite rue de Casbah
 Au milieu de Casa
 Petite brune enroulée d'un drap
