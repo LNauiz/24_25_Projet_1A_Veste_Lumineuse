@@ -4,7 +4,7 @@
 
 ```bash
 git pull
-<<travail travail travail>>
+# travail travail travail
 git status
 git add .
 git commit -m "texte intelligent"
