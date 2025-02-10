@@ -1,4 +1,4 @@
-Les créateurs : (par ordre alphabetique ainsi que ordre de talent inverse)
+Les créateurs : (par ordre alphabetique ainsi que ordre 66)
 ```
 LOISELET Geoffroy
 Taillepierre Axel
