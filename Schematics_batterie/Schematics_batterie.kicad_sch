@@ -1,0 +1,190 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d9c3e76e-38ed-414b-a112-eb5006e23d51")
+	(paper "A4")
+	(title_block
+		(title "Batterie")
+		(date "10/02/2025")
+		(company "ENSEA")
+		(comment 1 "Léonard Navizet")
+		(comment 2 "Clément Servaes")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 20.32 19.05)
+		(end 40.64 24.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00111977-0137-4978-bf20-7db751a710e2)
+	)
+	(rectangle
+		(start 121.92 95.25)
+		(end 281.94 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d928122-1ac0-4f52-ad67-1bbf7999fed0)
+	)
+	(rectangle
+		(start 121.92 95.25)
+		(end 151.13 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 552a4b4f-f7ee-4652-8382-c7449fd9c424)
+	)
+	(rectangle
+		(start 121.92 19.05)
+		(end 181.61 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5dd12322-dda4-4e3b-8284-0b5db2ad9caa)
+	)
+	(rectangle
+		(start 189.23 19.05)
+		(end 209.55 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66258a89-7136-4fe2-8647-70a783373c36)
+	)
+	(rectangle
+		(start 20.32 93.98)
+		(end 38.1 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a1e0a1a-6645-43bb-8b75-3f172903a435)
+	)
+	(rectangle
+		(start 20.32 19.05)
+		(end 111.76 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a86da489-9dfc-41fc-9422-410819652130)
+	)
+	(rectangle
+		(start 20.32 93.98)
+		(end 110.49 186.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b5e4bdf2-4ccb-4009-a6f3-8ffd700e7922)
+	)
+	(rectangle
+		(start 189.23 19.05)
+		(end 279.4 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cdf10e72-ecd3-486c-ba20-cd48daa68a42)
+	)
+	(rectangle
+		(start 121.92 19.05)
+		(end 143.51 24.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f1cb85bf-21ff-4a50-b055-4e0264e87703)
+	)
+	(text "Mouser 534-1044"
+		(exclude_from_sim no)
+		(at 30.734 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "368815fe-0309-4e44-8a4e-e9c1338d029b")
+	)
+	(text "Mouser 534-1043"
+		(exclude_from_sim no)
+		(at 199.644 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4af90fc6-7775-4e61-94fc-762058feb762")
+	)
+	(text "Mouser 595-BQ25185DLHR"
+		(exclude_from_sim no)
+		(at 136.398 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ceedb75-f373-4c9c-b14e-8a984e2d0c32")
+	)
+	(text "Connecteur USB-C"
+		(exclude_from_sim no)
+		(at 133.096 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6cb5d42-dbef-4568-b1bc-81f02745d416")
+	)
+	(text "STM32G431KBT6"
+		(exclude_from_sim no)
+		(at 29.718 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fbccdacf-66df-4d55-a027-1330e6d4a577")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
