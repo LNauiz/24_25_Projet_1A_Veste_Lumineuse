@@ -1,3 +1,3 @@
-Lamyae
-Diodio
-Junior
+Lamyae Sdiri
+Diodio Diop
+Junior SIDIBE
