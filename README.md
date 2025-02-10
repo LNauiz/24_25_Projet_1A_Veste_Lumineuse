@@ -55,8 +55,8 @@ Ce n'est pas un problème pour moi
 L'Aziza (L'Aziza)
 Je te veux si tu veux de moi
 
- X |---|---
+ X |---| O
 ___________
----|---|---
+---|---| O
 ___________
----|---|---
+---|---| O
