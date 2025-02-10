@@ -54,3 +54,9 @@ Si tu crois que ta vie est là
 Ce n'est pas un problème pour moi
 L'Aziza (L'Aziza)
 Je te veux si tu veux de moi
+
+ X |---|---
+___________
+---|---|---
+___________
+---|---|---
