@@ -4958,7 +4958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON40P220X200X80-11N"
+		(property "Footprint" ""
 			(at 73.66 172.39 0)
 			(effects
 				(font
@@ -5734,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
 			(at 133.35 67.31 0)
 			(effects
 				(font
