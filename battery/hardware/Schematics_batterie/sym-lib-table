@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "BQ25185DLHR")(type "KiCad")(uri "${KIPRJMOD}/BQ25185DLHR.kicad_sym")(options "")(descr ""))
-)
