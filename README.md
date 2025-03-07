@@ -1,5 +1,7 @@
 # 24_25_Projet_1A_Veste_Lumineuse
 
+* [Revue schéma](1-revue_schema.md)
+
 ## Pense bete Git
 
 ```bash
