@@ -1,4 +1,4 @@
-24735605853036833
+24832421484363121
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57455,6 +57455,398 @@ emi filter
 0
 5
 5
+FootprintGamelGe2_v8.0
+Autocom2
+HE14 header, 1x02, 2.54mm pitch, single row
+HE14 header THT 1x02 2.54mm single row
+0
+2
+2
+FootprintGamelGe2_v8.0
+Autocom3
+HE14 header, 1x03, 2.54mm pitch, single row
+HE14 header THT 1x03 2.54mm single row
+0
+3
+3
+FootprintGamelGe2_v8.0
+Autocom4
+HE14 header, 1x04, 2.54mm pitch, single row
+HE14 header THT 1x04 2.54mm single row
+0
+4
+4
+FootprintGamelGe2_v8.0
+Autocom5
+HE14 header, 1x05, 2.54mm pitch, single row
+HE14 header THT 1x05 2.54mm single row
+0
+5
+5
+FootprintGamelGe2_v8.0
+BNC_Vertical
+BNC female PCB mount 4 pin straight chassis connector http://www.te.com/usa-en/product-1-1478204-0.html
+BNC female PCB mount 4 pin straight chassis connector 
+0
+5
+2
+FootprintGamelGe2_v8.0
+CP_Radial_D5.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+CP_Radial_D10.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+CP_Radial_D16.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=16mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 16mm Electrolytic Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+C_Rect_L4.0mm_W2.5mm_P2.50mm
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4*2.5mm^2, Capacitor
+C Rect series Radial pin pitch 2.50mm  length 4mm width 2.5mm Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+C_Rect_L7.0mm_W2.5mm_P5.00mm
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor
+C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+C_Rect_L10.0mm_W3.0mm_P7.50mm
+C, Rect series, Radial, pin pitch=7.50mm, , length*width=10*3.0mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 7.50mm  length 10mm width 3.0mm Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+C_Rect_L13.0mm_W5.0mm_P10.00mm
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 5mm Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+C_Rect_L19.0mm_W5.0mm_P15.00mm
+C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 15.00mm  length 19mm width 5mm Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+C_Rect_L28.0mm_W8.0mm_P22.50mm
+C, Rect series, Radial, pin pitch=22.50mm, , length*width=28*8mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 22.50mm  length 28mm width 8mm Capacitor
+0
+2
+2
+FootprintGamelGe2_v8.0
+DIP-8_W7.62mm_LongPads
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+8
+8
+FootprintGamelGe2_v8.0
+DIP-8_W7.62mm_Socket_LongPads
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
+0
+8
+8
+FootprintGamelGe2_v8.0
+DIP-14_W7.62mm_LongPads
+14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+14
+14
+FootprintGamelGe2_v8.0
+DIP-14_W7.62mm_Socket_LongPads
+14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
+0
+14
+14
+FootprintGamelGe2_v8.0
+DIP-16_W7.62mm_LongPads
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+16
+16
+FootprintGamelGe2_v8.0
+DIP-16_W7.62mm_Socket_LongPads
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
+0
+16
+16
+FootprintGamelGe2_v8.0
+DIP-40_W15.24mm_LongPads
+40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), LongPads
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil LongPads
+0
+40
+40
+FootprintGamelGe2_v8.0
+DIP-40_W15.24mm_Socket_LongPads
+40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
+0
+40
+40
+FootprintGamelGe2_v8.0
+D_DO-35_SOD27_P7.62mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+FootprintGamelGe2_v8.0
+D_DO-41_SOD81_P10.16mm_Horizontal
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+FootprintGamelGe2_v8.0
+D_DO-201AD_P15.24mm_Horizontal
+Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf
+Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm
+0
+2
+2
+FootprintGamelGe2_v8.0
+ESP32_Module_38_pins_28mm_Wide
+
+
+0
+38
+38
+FootprintGamelGe2_v8.0
+Grove_LCD_16x2
+
+
+0
+10
+2
+FootprintGamelGe2_v8.0
+HE10_2x05_P2.54mm
+HE10 header, 2x05, 2.54mm pitch, double rows
+HE10 header THT 2x05 2.54mm double row
+0
+10
+10
+FootprintGamelGe2_v8.0
+HE10_2x08_P2.54mm
+HE10 header, 2x08, 2.54mm pitch, double rows
+HE10 header THT 2x08 2.54mm double row
+0
+16
+16
+FootprintGamelGe2_v8.0
+HE10_2x10_P2.54mm
+HE10 header, 2x10, 2.54mm pitch, double rows
+HE10 header THT 2x10 2.54mm double row
+0
+20
+20
+FootprintGamelGe2_v8.0
+JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical
+JST PH series connector, B4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH side entry
+0
+4
+4
+FootprintGamelGe2_v8.0
+JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal
+JST PH series connector, S4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+4
+4
+FootprintGamelGe2_v8.0
+LED_D3.0mm_green
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+FootprintGamelGe2_v8.0
+LED_D3.0mm_orange
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+FootprintGamelGe2_v8.0
+LED_D3.0mm_red
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+FootprintGamelGe2_v8.0
+LED_D5.0mm_green
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+FootprintGamelGe2_v8.0
+LED_D5.0mm_orange
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+FootprintGamelGe2_v8.0
+LED_D5.0mm_red
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+FootprintGamelGe2_v8.0
+Mounting_Screw_3mm
+3mm Mouting screw
+screw
+0
+1
+1
+FootprintGamelGe2_v8.0
+OmnimateSL-5,08_1x02_P5.08mm_Vertical
+OmnimateSL-5,08_1x02_P5.08mm_Vertical
+connector
+0
+2
+2
+FootprintGamelGe2_v8.0
+OmnimateSL-5,08_1x04_P5.08mm_Vertical
+OmnimateSL-5,08_1x04_P5.08mm_Vertical
+connector
+0
+4
+4
+FootprintGamelGe2_v8.0
+Potentiometer_ACP_CA9-H2,5_Horizontal
+Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf
+Potentiometer horizontal ACP CA9-H2,5
+0
+3
+3
+FootprintGamelGe2_v8.0
+Potentiometer_ACP_CA9-V10_Vertical
+Potentiometer, vertical, ACP CA9-V10, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf
+Potentiometer vertical ACP CA9-V10
+0
+3
+3
+FootprintGamelGe2_v8.0
+R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+FootprintGamelGe2_v8.0
+R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal
+Resistor, Axial_DIN0516 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=15.5*5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0516 series Axial Horizontal pin pitch 20.32mm 2W length 15.5mm diameter 5mm
+0
+2
+2
+FootprintGamelGe2_v8.0
+SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm
+2x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x7.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+4
+4
+FootprintGamelGe2_v8.0
+SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm
+4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+8
+8
+FootprintGamelGe2_v8.0
+SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm
+8x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x22.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+16
+16
+FootprintGamelGe2_v8.0
+SW_PUSH_5mm_blue
+
+tact sw push 5mm
+0
+4
+2
+FootprintGamelGe2_v8.0
+SW_PUSH_5mm_green
+
+tact sw push 5mm
+0
+4
+2
+FootprintGamelGe2_v8.0
+SW_PUSH_5mm_red
+
+tact sw push 5mm
+0
+4
+2
+FootprintGamelGe2_v8.0
+TO-220-3_Horizontal_TabDown
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+FootprintGamelGe2_v8.0
+TO-220-3_Vertical
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+FootprintGamelGe2_v8.0
+Vishay_CNY70
+package for Vishay CNY70 refective photo coupler/interrupter
+Vishay CNY70 refective photo coupler
+0
+4
+4
+FootprintGamelGe2_v8.0
+Vishay_CNY70_AC_Common
+package for Vishay CNY70 refective photo coupler/interrupter
+Vishay CNY70 refective photo coupler
+0
+5
+3
+FootprintGamelGe2_v8.0
+Vishay_CNY70_KE_Common
+package for Vishay CNY70 refective photo coupler/interrupter
+Vishay CNY70 refective photo coupler
+0
+5
+3
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf

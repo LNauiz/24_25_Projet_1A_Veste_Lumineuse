@@ -3502,7 +3502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 249.8852 59.69 0)
 			(effects
 				(font
@@ -3638,7 +3638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 233.172 82.55 90)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 234.95 73.66 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.0552 46.99 0)
 			(effects
 				(font
@@ -4185,7 +4185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.9148 29.21 0)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 59.69 0)
 			(effects
 				(font
@@ -4358,112 +4358,6 @@
 			(project "veste lumineuse_LEDS"
 				(path "/67146bde-f542-429a-9136-9c8458814419"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_ST_STDC14")
-		(at 125.73 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7697887d-4b84-47c7-8df8-d4a814a261e2")
-		(property "Reference" "J2"
-			(at 114.3 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ST_STDC14"
-			(at 114.3 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
-			(at 116.84 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
-			(at 125.73 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c4b97332-32ed-43b8-8cab-1218b3c7869b")
-		)
-		(pin "1"
-			(uuid "4bec4a55-0f1a-418e-ab10-3160657a91e3")
-		)
-		(pin "8"
-			(uuid "09e043ab-78a1-4a8a-8af3-df970c571d88")
-		)
-		(pin "2"
-			(uuid "e7e46ccd-553d-44dc-9310-dc56eeab6f97")
-		)
-		(pin "4"
-			(uuid "b02d1235-46cb-4bd3-b3d1-e367bba95ae0")
-		)
-		(pin "9"
-			(uuid "82b1ced6-dc07-43ba-aa51-b0fe546be4c8")
-		)
-		(pin "14"
-			(uuid "951d475b-b0aa-44eb-8047-5cc2a6c21e4f")
-		)
-		(pin "6"
-			(uuid "b942b31c-82b0-4a25-886b-b6b967698421")
-		)
-		(pin "5"
-			(uuid "320f06e0-c664-41c5-96ad-65e47dee1eba")
-		)
-		(pin "7"
-			(uuid "3e95d081-5ab8-4579-b2e1-9603f6d1cc3e")
-		)
-		(pin "13"
-			(uuid "79ba2a9f-ae6c-4bbe-9ecd-1e85dd98849b")
-		)
-		(pin "11"
-			(uuid "163a713e-d0ba-466e-b58a-d1a710578ec4")
-		)
-		(pin "12"
-			(uuid "c18f2ce1-f3a3-4c52-8815-d41e5b573859")
-		)
-		(pin "10"
-			(uuid "2bef1ddc-a584-4356-9e2c-dcf02e73d333")
-		)
-		(instances
-			(project ""
-				(path "/67146bde-f542-429a-9136-9c8458814419"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4563,7 +4457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 48.26 90)
 			(effects
 				(font
@@ -4666,6 +4560,112 @@
 			(project "veste lumineuse_LEDS"
 				(path "/67146bde-f542-429a-9136-9c8458814419"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_ST_STDC14")
+		(at 125.73 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f68cbcd-ee76-475d-a40f-d2ba7b4ea368")
+		(property "Reference" "J1"
+			(at 114.3 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ST_STDC14"
+			(at 114.3 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "312fe469-3f1b-4df9-94a5-ce3cfbef0a21")
+		)
+		(pin "1"
+			(uuid "1ac78b93-e616-468e-a911-8d35738df889")
+		)
+		(pin "9"
+			(uuid "822510db-6958-4ebe-8a3f-b2c1478fae6f")
+		)
+		(pin "11"
+			(uuid "84b0683e-446f-40b7-bb00-7ef27149465b")
+		)
+		(pin "2"
+			(uuid "140ce32c-639d-4afe-957d-6d0d0ac81b54")
+		)
+		(pin "12"
+			(uuid "38e10ad1-6376-493d-a0d0-0f13394a9052")
+		)
+		(pin "4"
+			(uuid "31b572ed-067d-4761-81db-1fb99c5f96c1")
+		)
+		(pin "13"
+			(uuid "bd960f4c-0b3b-4352-9b18-05883eb735c4")
+		)
+		(pin "5"
+			(uuid "b59d4580-6e91-42f3-9fc0-66ae16604de9")
+		)
+		(pin "14"
+			(uuid "f4085b66-41b7-4da3-89f1-8df3ef23ebd7")
+		)
+		(pin "6"
+			(uuid "c27f3a7f-acc0-4d4e-badf-1d9fe780f71d")
+		)
+		(pin "8"
+			(uuid "710dec84-bc43-4b05-aad6-2730dc53a073")
+		)
+		(pin "3"
+			(uuid "aa717c6f-1f54-455e-be01-7dcfada36de2")
+		)
+		(pin "7"
+			(uuid "a501d001-0297-4b8e-b8e1-2c868fea0f9e")
+		)
+		(instances
+			(project ""
+				(path "/67146bde-f542-429a-9136-9c8458814419"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4830,7 +4830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.7852 59.69 0)
 			(effects
 				(font
@@ -5245,7 +5245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.4852 59.69 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 104.14 39.37 0)
 			(effects
 				(font
@@ -5686,7 +5686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FootprintGamelGe2_v8.0:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.1048 68.58 0)
 			(effects
 				(font
