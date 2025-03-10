@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-03-03_13-43-06")(type "KiCad")(uri "C:/Users/gjvid/OneDrive/Documents/Dossier_numerique_ENSEA/KiCad-proj/Library/Symbols/2025-03-03_13-43-06.kicad_sym")(options "")(descr ""))
+  (lib (name "ABS07AIG32.768KHZ6DT")(type "KiCad")(uri "C:/Users/gjvid/OneDrive/Documents/Dossier_numerique_ENSEA/KiCad-proj/Library/Symbols/ABS07AIG32.768KHZ6DT.kicad_sym")(options "")(descr ""))
+)
