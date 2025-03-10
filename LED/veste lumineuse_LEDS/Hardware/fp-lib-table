@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LibGamelGe2")(type "KiCad")(uri "D:/veste lumineuse_LEDS/LibGamelGe2")(options "")(descr ""))
+  (lib (name "KiCADv6")(type "KiCad")(uri "D:/veste lumineuse_LEDS/KiCADv6")(options "")(descr ""))
+  (lib (name "IR2184PBF")(type "KiCad")(uri "D:/veste lumineuse_LEDS/IR2184PBF")(options "")(descr ""))
+)
