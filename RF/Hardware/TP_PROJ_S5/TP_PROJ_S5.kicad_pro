@@ -592,6 +592,10 @@
     [
       "5e74dd86-eabf-4eac-a6ab-2534adeb335f",
       "Root"
+    ],
+    [
+      "dd29e51d-92e8-4756-b7fb-a50f3e1a0d04",
+      "stm32"
     ]
   ],
   "text_variables": {}
