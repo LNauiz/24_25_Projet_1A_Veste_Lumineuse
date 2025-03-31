@@ -1,5 +1,5 @@
 
-(footprint OSC_XRCGB32M000F2P01R0 (layer F.Cu) (tedit 67CF02EC)
+(footprint OSC_XRCGB32M000F2P01R0 (layer F.Cu) (tedit 67CEFCEC)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -0.084 -1.6032 0) (layer F.SilkS)

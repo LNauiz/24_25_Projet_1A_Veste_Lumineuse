@@ -1,6 +1,8 @@
 (sym_lib_table
   (version 7)
-  (lib (name "2025-03-03_13-43-06")(type "KiCad")(uri "C:/Users/gjvid/OneDrive/Documents/Dossier_numerique_ENSEA/KiCad-proj/Library/Symbols/2025-03-03_13-43-06.kicad_sym")(options "")(descr ""))
-  (lib (name "ABS07AIG32.768KHZ6DT")(type "KiCad")(uri "C:/Users/gjvid/OneDrive/Documents/Dossier_numerique_ENSEA/KiCad-proj/Library/Symbols/ABS07AIG32.768KHZ6DT.kicad_sym")(options "")(descr ""))
-  (lib (name "2025-03-10_15-55-27")(type "KiCad")(uri "C:/Users/gjvid/Downloads/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/Symbols/2025-03-10_15-55-27.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-03-03_13-43-06")(type "KiCad")(uri "C:/Users/gjvid/Documents/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/2025-03-03_13-43-06.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-03-10_15-55-27")(type "KiCad")(uri "C:/Users/gjvid/Documents/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/2025-03-10_15-55-27.kicad_sym")(options "")(descr ""))
+  (lib (name "DLF")(type "KiCad")(uri "C:/Users/gjvid/Documents/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/DLF.kicad_sym")(options "")(descr ""))
+  (lib (name "CM8V-T1A-32.768KHZ-12.5PF-20PPM-TA-QA")(type "KiCad")(uri "C:/Users/gjvid/Documents/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/CM8V-T1A-32.768KHZ-12.5PF-20PPM-TA-QA.kicad_sym")(options "")(descr ""))
+  (lib (name "ABS07")(type "KiCad")(uri "C:/Users/gjvid/Downloads/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/ABS07AIG32.768KHZ6DT.kicad_sym")(options "")(descr ""))
 )
