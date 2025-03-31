@@ -2510,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 73.66) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1231d1ef-7d24-4dc7-8dfd-8b1e3bae40a4")
+	)
+	(wire
+		(pts
 			(xy 80.01 91.44) (xy 99.06 91.44)
 		)
 		(stroke
@@ -2627,6 +2637,16 @@
 			(type default)
 		)
 		(uuid "3f747acd-f6e8-4787-83ed-104c1152d545")
+	)
+	(wire
+		(pts
+			(xy 54.61 77.47) (xy 54.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f4da61-fdb8-4e3d-8371-bea0b6de2c1c")
 	)
 	(wire
 		(pts
@@ -2937,6 +2957,26 @@
 			(type default)
 		)
 		(uuid "ddd61e49-8f8e-475a-a13e-1fc909d29711")
+	)
+	(wire
+		(pts
+			(xy 44.45 77.47) (xy 54.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3527cd2-a4a5-4102-9ce2-45159b063c0c")
+	)
+	(wire
+		(pts
+			(xy 57.15 77.47) (xy 80.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5833bba-0bea-4b05-a8d3-4180e4e05686")
 	)
 	(wire
 		(pts
@@ -3326,7 +3366,7 @@
 	)
 	(symbol
 		(lib_id "SN74:SN7417N")
-		(at 50.8 60.96 0)
+		(at 54.61 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3335,23 +3375,25 @@
 		(fields_autoplaced yes)
 		(uuid "2d16202d-a2b2-417d-9a52-96bc041c2dcb")
 		(property "Reference" "IC1"
-			(at 63.5 53.34 0)
+			(at 73.66 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SN7417N"
-			(at 63.5 55.88 0)
+			(at 73.66 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "footprints:DIP794W53P254L1930H508Q14N"
-			(at 72.39 155.88 0)
+			(at 149.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3403,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn7417"
-			(at 72.39 255.88 0)
+			(at 249.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3413,7 @@
 			)
 		)
 		(property "Description" "Hex Buffers/Drivers With Open-Collector High-Voltage Outputs"
-			(at 50.8 60.96 0)
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3422,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 72.39 455.88 0)
+			(at 449.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3432,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 72.39 555.88 0)
+			(at 549.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3442,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN7417N"
-			(at 72.39 655.88 0)
+			(at 649.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +3452,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN7417N"
-			(at 72.39 755.88 0)
+			(at 749.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3462,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN7417N?qs=rgxfVHSNRPW2P%252BfiJNxH%2FA%3D%3D"
-			(at 72.39 855.88 0)
+			(at 849.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3472,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SN7417N"
-			(at 72.39 955.88 0)
+			(at 949.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3482,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn7417n/texas-instruments?region=nac"
-			(at 72.39 1055.88 0)
+			(at 1049.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,6 +4326,71 @@
 			(project ""
 				(path "/5e74dd86-eabf-4eac-a6ab-2534adeb335f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad99e124-f7b3-419e-a491-79f4479609d7")
+		(property "Reference" "#PWR032"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.898 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c0bb6cb-e307-479e-a945-a72d72e9fbc8")
+		)
+		(instances
+			(project ""
+				(path "/5e74dd86-eabf-4eac-a6ab-2534adeb335f"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
