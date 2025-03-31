@@ -1,4 +1,4 @@
-24746066381183765
+24749553235042928
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99533,6 +99533,13 @@ DIN5_MIDI(1)
 9
 6
 footprints
+DIP794W53P254L1930H508Q14N
+PDIP-N
+Integrated Circuit
+0
+14
+14
+footprints
 DLF-4_1P6X0P8
 
 DLF162500LT-5028A1 
@@ -99546,6 +99553,13 @@ OSC_XRCGB32M000F2P01R0
 0
 4
 4
+footprints
+XTAL_ABS07AIG32.768KHZ6DT
+
+
+0
+2
+2
 footprints
 XTAL_CM8V-T1A-32.768KHZ-12.5PF-20PPM-TA-QA
 

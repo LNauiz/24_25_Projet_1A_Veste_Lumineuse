@@ -5,4 +5,5 @@
   (lib (name "DLF")(type "KiCad")(uri "C:/Users/gjvid/Documents/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/DLF.kicad_sym")(options "")(descr ""))
   (lib (name "CM8V-T1A-32.768KHZ-12.5PF-20PPM-TA-QA")(type "KiCad")(uri "C:/Users/gjvid/Documents/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/CM8V-T1A-32.768KHZ-12.5PF-20PPM-TA-QA.kicad_sym")(options "")(descr ""))
   (lib (name "ABS07")(type "KiCad")(uri "C:/Users/gjvid/Downloads/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/ABS07AIG32.768KHZ6DT.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74")(type "KiCad")(uri "C:/Users/gjvid/Documents/24_25_Projet_1A_Veste_Lumineuse-main/24_25_Projet_1A_Veste_Lumineuse-main/RF/Hardware/Library/SymbolsRF/SN7417N.kicad_sym")(options "")(descr ""))
 )
