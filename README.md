@@ -4,7 +4,7 @@
 
 * [Readme LED](LED/README.md)
 
-* [Readme batterie](battery/README)
+* [Readme batterie](battery/README.md)
   
 ## Pense bete Git
 
