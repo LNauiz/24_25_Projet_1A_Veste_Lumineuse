@@ -9,4 +9,23 @@ Voici la bill of material qui est une liste des composants utilisés dans le pro
 ![Bill of Material](Images/Bill_material.png)
 
 Donc nous allons résumer le fonctiononement des composants utilisé et expliquer le choix des composants associé:
+### 🟦 1. [STM32]
+- **Référence :STM32G431KBTx**  
+- **Fonction :Microcontroleur**  
+- **Où il est utilisé :**
 
+---
+
+### 🟨 2. [Nom du composant]
+- **Référence :**  
+- **Fonction :**  
+- **Où il est utilisé :**
+
+---
+
+### 🟥 3. [Nom du composant]
+- **Référence :**  
+- **Fonction :**  
+- **Où il est utilisé :**
+
+---

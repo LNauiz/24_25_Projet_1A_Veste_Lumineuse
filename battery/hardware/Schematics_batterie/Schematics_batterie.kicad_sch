@@ -7304,7 +7304,7 @@
 			)
 		)
 	)
-	(global_label "BAT"
+	(global_label "SYS"
 		(shape input)
 		(at 182.88 124.46 180)
 		(fields_autoplaced yes)
@@ -7316,7 +7316,7 @@
 		)
 		(uuid "7a70110e-913c-4724-aac0-f173123a028d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.5686 124.46 0)
+			(at 176.3872 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
