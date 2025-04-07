@@ -3,6 +3,8 @@
 * [Revue schéma](1-revue_schema.md)
 
 * [Readme LED](LED/README.md)
+
+* [Readme batterie](battery/README.md)
   
 ## Pense bete Git
 
