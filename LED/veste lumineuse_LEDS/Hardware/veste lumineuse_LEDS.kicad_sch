@@ -5976,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "BATTERY"
 			(at 27.94 38.1 0)
 			(effects
 				(font
