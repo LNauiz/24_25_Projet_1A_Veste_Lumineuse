@@ -4,7 +4,7 @@ Elle est traitée par Clément Servaes et Léonard Navizet
 
 ##Explications des différents raisonnements et choix des composants:
 Nous n'avons pas choisis nos composant actifs mais dimentioné nos composants passif.
-![Bill of Material](battery/Images/Bill%20material.png)
+![Bill_Material](battery/Images/Bill_material.png)
 
 
 
