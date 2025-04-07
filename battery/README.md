@@ -8,7 +8,7 @@ Nous n'avons pas choisis nos composant actifs mais dimentioné nos composants pa
 Voici une image récapitulative des composants utilisés dans le projet :
 
 <p align="center">
-  <img src="battery/Images/Billu_material.png" alt="Bill of Material" width="600">
+  <img src="battery/Images/Bill_material.png" alt="Bill of Material" width="600">
 </p>
 
 
