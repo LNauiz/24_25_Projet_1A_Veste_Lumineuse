@@ -1,4 +1,4 @@
-24749553235042928
+24751296665780770
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99532,6 +99532,13 @@ DIN5_MIDI(1)
 0
 9
 6
+footprints
+DIP762W50P254L1018H450Q8
+<b>Dual In Line Package</b>
+
+0
+8
+8
 footprints
 DIP794W53P254L1930H508Q14N
 PDIP-N
