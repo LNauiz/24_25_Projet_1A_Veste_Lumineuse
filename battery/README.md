@@ -3,8 +3,7 @@
 Elle est traitée par Clément Servaes et Léonard Navizet
 
 ##Explications des différents raisonnements et choix des composants:
-
-
+Nous n'avons pas choisis nos composant actifs mais dimentioné nos composants passif.
 
 
 
