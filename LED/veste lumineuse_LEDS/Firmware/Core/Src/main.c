@@ -21,6 +21,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "utils.h"
+
+
 
 /* USER CODE END Includes */
 
@@ -102,8 +105,23 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+
+
+  PWM_Start(); // Démarre le signal PWM une seule fois
+  PWM_SetDutyCycle();
+
   while (1)
   {
+	  for (uint16_t duty = 0; duty <= 65535; duty += 1000) {
+	       PWM_SetDutyCycle(duty);
+	       HAL_Delay(10); // petite pause pour voir la variation
+	     }
+
+	     for (uint16_t duty = 65535; duty >= 1000; duty -= 1000) {
+	       PWM_SetDutyCycle(duty);
+	       HAL_Delay(10);
+	     }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
