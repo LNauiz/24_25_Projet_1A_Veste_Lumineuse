@@ -6,7 +6,7 @@ Elle est traitée par Clément Servaes et Léonard Navizet
 Nous n'avons pas choisis nos composant actifs mais dimentioné nos composants passif.
 
 Voici une image récapitulative des composants utilisés dans le projet :
-
+![Bill of Material](Images/Bill_material.png)
 <p align="center">
   <img src="battery/Images/Bill_material.png" alt="Bill of Material" width="600">
 </p>
