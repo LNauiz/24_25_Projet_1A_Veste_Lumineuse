@@ -22,7 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "utils.h"
-
+#include <stdio.h>
 
 
 /* USER CODE END Includes */
@@ -64,7 +64,11 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+int __io_putchar(int chr)
+{
+	HAL_UART_Transmit(&huart1, (uint8_t*)&chr, 1, HAL_MAX_DELAY);
+	return chr;
+}
 /* USER CODE END 0 */
 
 /**
@@ -100,7 +104,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  printf("\r\n===== VESTE LED =====\r\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,20 +112,22 @@ int main(void)
 
 
 
-  PWM_Start(); // Démarre le signal PWM une seule fois
-  PWM_SetDutyCycle();
+//  PWM_Start(); // Démarre le signal PWM une seule fois
+//  PWM_SetDutyCycle();
 
   while (1)
   {
-	  for (uint16_t duty = 0; duty <= 65535; duty += 1000) {
-	       PWM_SetDutyCycle(duty);
-	       HAL_Delay(10); // petite pause pour voir la variation
-	     }
-
-	     for (uint16_t duty = 65535; duty >= 1000; duty -= 1000) {
-	       PWM_SetDutyCycle(duty);
-	       HAL_Delay(10);
-	     }
+	  HAL_GPIO_TogglePin(LED_STATUS_GPIO_Port, LED_STATUS_Pin);
+	  HAL_Delay(100);
+//	  for (uint16_t duty = 0; duty <= 65535; duty += 1000) {
+//	       PWM_SetDutyCycle(duty);
+//	       HAL_Delay(10); // petite pause pour voir la variation
+//	     }
+//
+//	     for (uint16_t duty = 65535; duty >= 1000; duty -= 1000) {
+//	       PWM_SetDutyCycle(duty);
+//	       HAL_Delay(10);
+//	     }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
