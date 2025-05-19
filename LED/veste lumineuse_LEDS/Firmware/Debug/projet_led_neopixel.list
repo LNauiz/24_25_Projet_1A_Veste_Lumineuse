@@ -7,23 +7,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         00004854  080001d8  080001d8  000011d8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       0000004c  08004a2c  08004a2c  00005a2c  2**2
+  2 .rodata       0000005c  08004a2c  08004a2c  00005a2c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .ARM.extab    00000000  08004a78  08004a78  00006068  2**0
+  3 .ARM.extab    00000000  08004a88  08004a88  00006068  2**0
                   CONTENTS
-  4 .ARM          00000008  08004a78  08004a78  00005a78  2**2
+  4 .ARM          00000008  08004a88  08004a88  00005a88  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  5 .preinit_array 00000000  08004a80  08004a80  00006068  2**0
+  5 .preinit_array 00000000  08004a90  08004a90  00006068  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .init_array   00000004  08004a80  08004a80  00005a80  2**2
+  6 .init_array   00000004  08004a90  08004a90  00005a90  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  7 .fini_array   00000004  08004a84  08004a84  00005a84  2**2
+  7 .fini_array   00000004  08004a94  08004a94  00005a94  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  8 .data         00000068  20000000  08004a88  00006000  2**2
+  8 .data         00000068  20000000  08004a98  00006000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .bss          000002e4  20000068  08004af0  00006068  2**2
+  9 .bss          000002e4  20000068  08004b00  00006068  2**2
                   ALLOC
- 10 ._user_heap_stack 00000604  2000034c  08004af0  0000634c  2**0
+ 10 ._user_heap_stack 00000604  2000034c  08004b00  0000634c  2**0
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  00006068  2**0
                   CONTENTS, READONLY
@@ -407,7 +407,7 @@ int main(void)
   MX_USART2_UART_Init();
  8000544:	f000 f94c 	bl	80007e0 <MX_USART2_UART_Init>
   /* USER CODE BEGIN 2 */
-  printf("BONJOUR\r\n");
+  printf("\r\n===== VESTE LED =====\r\n");
  8000548:	4806      	ldr	r0, [pc, #24]	@ (8000564 <main+0x38>)
  800054a:	f003 fecf 	bl	80042ec <puts>
 //  PWM_Start(); // Démarre le signal PWM une seule fois
@@ -1965,7 +1965,7 @@ LoopForever:
   ldr r1, =_edata
  8000d14:	20000068 	.word	0x20000068
   ldr r2, =_sidata
- 8000d18:	08004a88 	.word	0x08004a88
+ 8000d18:	08004a98 	.word	0x08004a98
   ldr r2, =_sbss
  8000d1c:	20000068 	.word	0x20000068
   ldr r4, =_ebss
@@ -4835,7 +4835,7 @@ HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, ui
  8001d68:	40022000 	.word	0x40022000
  8001d6c:	40021000 	.word	0x40021000
  8001d70:	04c4b400 	.word	0x04c4b400
- 8001d74:	08004a38 	.word	0x08004a38
+ 8001d74:	08004a48 	.word	0x08004a48
  8001d78:	20000000 	.word	0x20000000
  8001d7c:	20000004 	.word	0x20000004
 
@@ -5016,7 +5016,7 @@ uint32_t HAL_RCC_GetPCLK1Freq(void)
  8001e7c:	4618      	mov	r0, r3
  8001e7e:	bd80      	pop	{r7, pc}
  8001e80:	40021000 	.word	0x40021000
- 8001e84:	08004a48 	.word	0x08004a48
+ 8001e84:	08004a58 	.word	0x08004a58
 
 08001e88 <HAL_RCC_GetPCLK2Freq>:
   * @note   Each time PCLK2 changes, this function must be called to update the
@@ -5043,7 +5043,7 @@ uint32_t HAL_RCC_GetPCLK2Freq(void)
  8001ea8:	4618      	mov	r0, r3
  8001eaa:	bd80      	pop	{r7, pc}
  8001eac:	40021000 	.word	0x40021000
- 8001eb0:	08004a48 	.word	0x08004a48
+ 8001eb0:	08004a58 	.word	0x08004a58
 
 08001eb4 <RCC_GetSysClockFreqFromPLLSource>:
 /**
@@ -9686,7 +9686,7 @@ HAL_StatusTypeDef UART_SetConfig(UART_HandleTypeDef *huart)
  8003a68:	46bd      	mov	sp, r7
  8003a6a:	e8bd 8fb0 	ldmia.w	sp!, {r4, r5, r7, r8, r9, sl, fp, pc}
  8003a6e:	bf00      	nop
- 8003a70:	08004a50 	.word	0x08004a50
+ 8003a70:	08004a60 	.word	0x08004a60
  8003a74:	00f42400 	.word	0x00f42400
 
 08003a78 <UART_AdvFeatureConfig>:
@@ -10789,8 +10789,8 @@ static void UARTEx_SetNbDataToProcess(UART_HandleTypeDef *huart)
  80040ac:	f85d 7b04 	ldr.w	r7, [sp], #4
  80040b0:	4770      	bx	lr
  80040b2:	bf00      	nop
- 80040b4:	08004a68 	.word	0x08004a68
- 80040b8:	08004a70 	.word	0x08004a70
+ 80040b4:	08004a78 	.word	0x08004a78
+ 80040b8:	08004a80 	.word	0x08004a80
 
 080040bc <std>:
  80040bc:	2300      	movs	r3, #0
@@ -11347,10 +11347,10 @@ static void UARTEx_SetNbDataToProcess(UART_HandleTypeDef *huart)
  8004586:	4798      	blx	r3
  8004588:	3601      	adds	r6, #1
  800458a:	e7f2      	b.n	8004572 <__libc_init_array+0x1e>
- 800458c:	08004a80 	.word	0x08004a80
- 8004590:	08004a80 	.word	0x08004a80
- 8004594:	08004a80 	.word	0x08004a80
- 8004598:	08004a84 	.word	0x08004a84
+ 800458c:	08004a90 	.word	0x08004a90
+ 8004590:	08004a90 	.word	0x08004a90
+ 8004594:	08004a90 	.word	0x08004a90
+ 8004598:	08004a94 	.word	0x08004a94
 
 0800459c <__retarget_lock_init_recursive>:
  800459c:	4770      	bx	lr

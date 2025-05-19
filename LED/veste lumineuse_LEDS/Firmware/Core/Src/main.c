@@ -105,6 +105,9 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   printf("\r\n===== VESTE LED =====\r\n");
+
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
