@@ -48,14 +48,23 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, LED_STATUS_Pin|LED_PLAYING_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, CE_Pin|STAT1_Pin|STAT2_Pin|LED_STATUS_Pin
+                          |LED_PLAYING_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : LED_STATUS_Pin LED_PLAYING_Pin */
-  GPIO_InitStruct.Pin = LED_STATUS_Pin|LED_PLAYING_Pin;
+  /*Configure GPIO pins : CE_Pin STAT1_Pin STAT2_Pin LED_STATUS_Pin
+                           LED_PLAYING_Pin */
+  GPIO_InitStruct.Pin = CE_Pin|STAT1_Pin|STAT2_Pin|LED_STATUS_Pin
+                          |LED_PLAYING_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : SYS_Pin */
+  GPIO_InitStruct.Pin = SYS_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(SYS_GPIO_Port, &GPIO_InitStruct);
 
 }
 

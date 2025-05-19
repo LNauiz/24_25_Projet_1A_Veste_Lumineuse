@@ -18,12 +18,14 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
+#include <utils.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,6 +95,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
   printf("BONJOUR\r\n");
 
@@ -103,9 +106,24 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 	while (1)
 	{
-		HAL_GPIO_TogglePin(LED_STATUS_GPIO_Port, LED_STATUS_Pin);
-		HAL_GPIO_TogglePin(LED_PLAYING_GPIO_Port, LED_PLAYING_Pin);
-		HAL_Delay(100);
+		uint32_t voltage=read_analog_input();
+		HAL_Delay(500);
+
+		if (voltage==0){
+			HAL_GPIO_WritePin(CE_GPIO_Port,CE_Pin,1);
+		}
+		else if(voltage<4){
+			HAL_GPIO_WritePin(CE_GPIO_Port,CE_Pin,0);
+			HAL_GPIO_WritePin(LED_PLAYING_GPIO_Port, LED_PLAYING_Pin, 0);
+
+		}
+		else{
+			HAL_GPIO_WritePin(CE_GPIO_Port,CE_Pin,1);
+			HAL_GPIO_WritePin(LED_PLAYING_GPIO_Port, LED_PLAYING_Pin, 1);
+		}
+		//HAL_GPIO_TogglePin(LED_STATUS_GPIO_Port, LED_STATUS_Pin);
+		//HAL_GPIO_TogglePin(LED_PLAYING_GPIO_Port, LED_PLAYING_Pin);
+		//HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
