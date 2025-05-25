@@ -2,6 +2,8 @@
 
 Elle est traitée par Clément Servaes et Léonard Navizet
 
+#L'objectif de ce projet est de créer un PCB qui gère l'état de charge de la batterie ainsi que la distribution de la puissance vers les autres modules de la veste lumineuse.
+
 ##Explications des différents raisonnements et choix des composants:
 Nous n'avons pas choisis nos composant actifs mais dimentioné nos composants passif.
 
@@ -29,3 +31,15 @@ Donc nous allons résumer le fonctiononement des composants utilisé et explique
 - **Où il est utilisé :**
 
 ---
+
+#Après avoir choisi nos composants, on s'est dirigé vers kicad ou nous avons créer notre PCB. 
+
+Nous avons commencé par déterminer tout les pins que notre STM32 aurait besoin pour la programmation des fonctionnalitées voulue, la gestion de la puissance d'alimentation et les LEDs de statut .
+Nous avons ensuite configuré les éléments du programmeur. La prochaine étape a été de comprendre la documentation du composant BQ25185DLHR afin de savoir quelles entrées et sorties étaient nécessaires ainsi que la 
+protections des voies de programmation. Nous avons enfin établi avec l'aide de notre encadrant la liste des composants nécessaire à l'inclusion d'un port USB-C. C'est pour cela que nous avons inclu le composant
+USBLC6-2SC6 pour permettre au PCB de communiquer en USB-c avec l'ordinateur.
+
+
+
+
+
