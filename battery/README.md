@@ -77,6 +77,10 @@ Nous avons créer un utils.c avec la fonction read_analog_input codée ci-dessou
 
 ![Code-read](Images/Code-read.png)
 
+La raw_value récupère la valeur envoyé par la STM. Nous avons mesuré la tension au même moment pour étalonner la variable voltage (4.04 V corresponds à 1596 au PIN).
+Cela nous permet de mesurer la tension de la batterie et de l'afficher sur le teerminal.
+
+
 
 
 
