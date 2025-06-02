@@ -78,8 +78,11 @@ Nous avons créer un utils.c avec la fonction read_analog_input codée ci-dessou
 ![Code-read](Images/Code-read.png)
 
 La raw_value récupère la valeur envoyé par la STM. Nous avons mesuré la tension au même moment pour étalonner la variable voltage (4.04 V corresponds à 1596 au PIN).
-Cela nous permet de mesurer la tension de la batterie et de l'afficher sur le teerminal.
+Cela nous permet de mesurer la tension de la batterie et de l'afficher sur le terminal.
 
+Il ne reste plus qu'à faire un rapide test logique (compte tenu de la tension de la batterie afin d'envoyer un 0 au charge Enabler si la batterie doit être chargée (Tension en dessous de 4 V) ou un 1 si cette dernière est suffisament chargée.
+
+Il y a aussi une fonction qui permet dde signaler à l'utilisateur quand la charge de la batterie deviens critique. Dans ce cas, une LED rouge commencera clignotter.
 
 
 
