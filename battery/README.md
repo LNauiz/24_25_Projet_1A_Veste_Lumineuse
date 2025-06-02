@@ -14,35 +14,35 @@ Donc nous allons résumer le fonctiononement des composants utilisé et explique
 ### 🟦 1. [STM32]
 - **Référence :STM32G431KBTx**  
 - **Fonction :Microcontroleur**  
-- **Où il est utilisé :**
+- **Sert à commander l'ensemble de la carte.**
 
 ---
 
-### 🟨 2. [Nom du composant]
-- **Référence :**  
-- **Fonction :**  
-- **Où il est utilisé :**
+### 🟨 2. [BMS]
+- **Référence :BQ25185DLHR**  
+- **Fonction : Battery management system**  
+- **Sert à mesurer l'état  de la batterie et dicte si la batterie doit se charger ou non**
 
 ---
 
-### 🟥 3. [Nom du composant]
-- **Référence :**  
-- **Fonction :**  
-- **Où il est utilisé :**
-
----
 
 # Après avoir choisi nos composants, on s'est dirigé vers kicad ou nous avons créer notre PCB. 
 
 Nous avons commencé par déterminer tout les pins que notre STM32 aurait besoin pour la programmation des fonctionnalitées voulue, la gestion de la puissance d'alimentation et les LEDs de statut .
 Nous avons ensuite configuré les éléments du programmeur. La prochaine étape a été de comprendre la documentation du composant BQ25185DLHR afin de savoir quelles entrées et sorties étaient nécessaires ainsi que la 
-protections des voies de programmation. Nous avons enfin établi avec l'aide de notre encadrant la liste des composants nécessaire à l'inclusion d'un port USB-C. C'est pour cela que nous avons inclu le composant
+protections des voies de programmation. 
+
+Nous avons enfin établi avec l'aide de notre encadrant la liste des composants nécessaire à l'inclusion d'un port USB-C. C'est pour cela que nous avons inclu le composant
 USBLC6-2SC6 pour permettre au PCB de communiquer en USB-c avec l'ordinateur.
 
+![Kicad](Images/Kicad.png)
 
 
+L'objectif est que la STM32 puisse recevoir les informations du BMS et puisse savoir si la carte est branchée en USB-C pour indiquer à l'utilisateur ((àl'aide de LEDs) et au BMS l'état de charge de la batterie et de la recharger si besoin est.
 
+Voici un shéma fonctionnel.
 
+![shema-fonct](Images/shema-fonct.png)
 
 
 
