@@ -24,7 +24,10 @@ Donc nous allons résumer le fonctiononement des composants utilisé et explique
 - **Sert à mesurer l'état  de la batterie et dicte si la batterie doit se charger ou non**
 
 ---
-### 🟩 2. [BMS]
+### 🟩 2. [Régulateur de tension]
+- **Référence :BU33SD5WG**
+- **Fonction : Régule la tension a 3,3V**
+- **Sert à réguler la tension SYS qui peut aller jusqu'a 5V**
 ---
 
 
