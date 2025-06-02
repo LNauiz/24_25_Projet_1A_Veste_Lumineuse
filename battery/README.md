@@ -24,6 +24,8 @@ Donc nous allons résumer le fonctiononement des composants utilisé et explique
 - **Sert à mesurer l'état  de la batterie et dicte si la batterie doit se charger ou non**
 
 ---
+### 🟩 2. [BMS]
+---
 
 
 # Après avoir choisi nos composants, on s'est dirigé vers kicad ou nous avons créer notre PCB. 
