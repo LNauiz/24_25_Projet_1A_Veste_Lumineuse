@@ -1,0 +1,4 @@
+../Core/Inc/ws2812.c:23:6:WS2812_SetPixelColor	16	static
+../Core/Inc/ws2812.c:32:6:WS2812_Refresh	32	static
+../Core/Inc/ws2812.c:55:6:WS2812_Clear	16	static
+../Core/Inc/ws2812.c:62:6:WS2812_SendColorArray	32	static

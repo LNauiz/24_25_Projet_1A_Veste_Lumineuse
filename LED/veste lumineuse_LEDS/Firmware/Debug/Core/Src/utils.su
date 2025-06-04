@@ -1,0 +1,2 @@
+../Core/Src/utils.c:50:6:Delay_NS	24	static,ignoring_inline_asm
+../Core/Src/utils.c:81:6:WS2812_SendColor	16	static

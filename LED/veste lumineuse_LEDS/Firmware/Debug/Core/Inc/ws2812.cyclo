@@ -1,0 +1,4 @@
+../Core/Inc/ws2812.c:23:6:WS2812_SetPixelColor	2
+../Core/Inc/ws2812.c:32:6:WS2812_Refresh	6
+../Core/Inc/ws2812.c:55:6:WS2812_Clear	2
+../Core/Inc/ws2812.c:62:6:WS2812_SendColorArray	3
