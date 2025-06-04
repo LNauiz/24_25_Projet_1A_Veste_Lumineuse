@@ -57,6 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define VBAT_Pin GPIO_PIN_0
+#define VBAT_GPIO_Port GPIOA
+#define CE_Pin GPIO_PIN_4
+#define CE_GPIO_Port GPIOA
+#define STAT1_Pin GPIO_PIN_5
+#define STAT1_GPIO_Port GPIOA
+#define STAT2_Pin GPIO_PIN_6
+#define STAT2_GPIO_Port GPIOA
+#define SYS_Pin GPIO_PIN_7
+#define SYS_GPIO_Port GPIOA
 #define LED_STATUS_Pin GPIO_PIN_8
 #define LED_STATUS_GPIO_Port GPIOA
 #define LED_PLAYING_Pin GPIO_PIN_9

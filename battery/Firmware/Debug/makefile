@@ -61,7 +61,7 @@ main-build: Batterie.elf secondary-outputs
 
 # Tool invocations
 Batterie.elf Batterie.map: $(OBJS) $(USER_OBJS) C:\Users\leona\Documents\Premier_Projet\24_25_Projet_1A_Veste_Lumineuse\battery\Firmware\STM32G431KBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Batterie.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\leona\Documents\Premier_Projet\24_25_Projet_1A_Veste_Lumineuse\battery\Firmware\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Batterie.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "Batterie.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\leona\Documents\Premier_Projet\24_25_Projet_1A_Veste_Lumineuse\battery\Firmware\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Batterie.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
