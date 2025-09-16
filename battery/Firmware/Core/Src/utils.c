@@ -15,8 +15,6 @@
 
 
 
-float VMAX=5; //Tension Maximale de la batterie
-
 float read_analog_input(void){
 
 	uint32_t raw_value;
